@@ -1,0 +1,101 @@
+/***************/
+Theme Name: My Collectibles Theme
+Author: Julio Salguero
+Author URL: http://juliandesignstudio.com
+Description: A practice WordPress theme and showcase for my collection of figures.
+Version: 1.0
+Tags: portfolio, gallery, white, green
+
+/**************/
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	margin-top: -40px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 960px;
+ 	background-color: #fff;
+}
+
+.header {
+	text-align: center;
+	padding-top: 50px;
+	margin-bottom: 60px;
+}
+
+.header a {
+	text-decoration: none;
+	font-size: 44px;
+	font-family: Georgia, serif;
+	font-weight: 500;
+	color: #22B573;
+}
+
+img {
+	width: 100%;
+	box-shadow: 0px 0px 3px #2d2d2d;
+}
+
+.images_area {
+	padding-left: 40px;
+	min-height: 600px;
+}
+
+.image_box {
+	display: inline-block;
+/* 	width: 270px; */
+	margin: 10px;
+}
+
+.footer {
+	width: 100%;
+	min-height: 40px;
+	margin-top: 60px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #22B573;
+	box-shadow: 0px 0px 3px #113f2a;
+}
+
+.footer .col {
+	display: inline-block;
+	min-width: 297px;
+  	margin: 10px;
+ 	text-align: center;
+}
+
+/**** Page ****/
+
+.profile_area {
+	min-height: 500px;
+}
+
+.profile {
+	display: inline-block;	
+}
+
+.profile_img {
+ 	float: left;
+ 	width: 531px;
+}
+
+.profile_text {
+	width: 399px;
+	height: 367.1px;
+	background-color: rgba(35, 181, 116, 0.5);
+	padding: 15px;
+	box-shadow: 0px 0px 3px #113f2a;
+
+}
+
+.text_label {
+	font-weight: 700;
+}
+
+
+
+
